@@ -1,0 +1,136 @@
+
+/* Google font-Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* header-section  */
+.header-section{
+    margin: 0px auto;
+    max-width: 1600px;
+    background-color: #1A0B2E;
+}
+/* navbar-section */
+.navber{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 1);
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 200px;
+}
+.nav-title{
+    color: #FFFFFF;
+    font-size: 2rem;
+    width: 219px;
+}
+.title-wave{
+  background: linear-gradient(to right, rgb(205, 7, 223), rgb(223, 121, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-text a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-right: 34px;
+    text-decoration: none;
+}
+
+/* Button-section */
+
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.btn-primary {
+    font-style: Semi Bold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+
+    color: #ffffffe7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px 12px 16px;
+    border-radius: 100px;
+    /* background-color: rgb(205, 7, 223); */
+    background: var(--Linear, linear-gradient(45.64deg, rgb(243, 95, 36),rgb(205, 7, 223),rgb(223, 121, 4)));
+}
+
+.btn-02{
+    color:#00FF88;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    gap: 8;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #00FF88,;
+    
+}
+
+
+/* Hero-section  */
+
+.hero-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+.hero-section .hero-img {
+    position: relative;
+    background-image: url("../ images/hero-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    background-size: cover;
+    /* background-position: center; */
+    position: center;
+}
+
+/* Title-section */
+.hero-title h1 {
+    color: rgb(236, 109, 24);
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 73px;
+    text-align: center;
+}
+.hero-title p {
+    color: rgb(243, 110, 57);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+
+/* Podcast-section */
+
+.Podcast-section{
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
