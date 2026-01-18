@@ -12,6 +12,7 @@ body{
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  font: size 16px;
 }
 
 /* header-section  */
@@ -41,7 +42,7 @@ body{
 }
 .nav-text a {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     text-align: left;
     margin-right: 34px;
@@ -53,10 +54,13 @@ body{
 .btn{
     display: flex;
     gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .btn-primary {
     font-style: Semi Bold;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 19px;
 
@@ -72,7 +76,7 @@ body{
 
 .btn-02{
     color:#00FF88;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 19px;
     text-align: left;
@@ -114,14 +118,14 @@ body{
 /* Title-section */
 .hero-title h1 {
     color: rgb(236, 109, 24);
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: 800;
     line-height: 73px;
     text-align: center;
 }
 .hero-title p {
     color: rgb(243, 110, 57);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 19px;
     text-align: center;
@@ -132,5 +136,62 @@ body{
 .Podcast-section{
     max-width: 1600px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16;
+    background: rgba(26, 11, 46, 1);
     box-sizing: border-box;
+    padding: 50px 200px 120px 200px;
 }
+
+.Podcast-title h3 {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Podcast-title p {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.Podcast-features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.Podcast-features h4 {
+    color: #00FF88;
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.Podcast-features p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.features-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16;
+}
+
