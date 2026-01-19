@@ -57,6 +57,9 @@ body{
     align-items: center;
     text-align: center;
 }
+#hamburgger-m{
+    display: none;
+}
 
 /* Button-section */
 
@@ -279,14 +282,16 @@ body{
 }
 
 .box-grid{
-    margin: 0 auto;
+
     display: grid;
     gap: 30px;
     color:#FFFFFF;
     background: rgba(35, 14, 61, 1);
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,380px);
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 3fr);
 }
+
+
 .box-1{
     grid-column: span 1;
     grid-row: span 2;
@@ -545,6 +550,9 @@ line-height: 24px;
 text-align: center;
 }
 
+
+
+
 /* Media screen section  */
 @media screen and (max-width:576px) {
 
@@ -595,8 +603,8 @@ text-align: center;
 }
 
 .hamburgger-menu{
+    width: 100%;
     display: grid;
-    width: 24px;
     grid-template-columns: repeat(1, 1fr);
     justify-content: space-between;
     align-items: center;
@@ -748,7 +756,8 @@ text-align: center;
 }
 
 .footer-bg{
-    max-width: 576px;
+    max-width: 40%;
+
 }
 
 }
