@@ -198,6 +198,7 @@ body{
 /* Why choose techwave section  */
 
 .Choose-container{
+    margin: 0 auto;
     max-width: 1600px;
     box-sizing: border-box;
     background-color: #1A0B2E;
@@ -307,3 +308,10 @@ body{
     padding: 40px;
 }
 
+.Episodes-section{
+    margin:0 auto;
+    max-width: 1600px;
+    box-sizing: border-box;
+    padding: 50px 200px 120px 200px;
+    
+}
