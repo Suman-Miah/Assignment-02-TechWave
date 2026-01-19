@@ -147,13 +147,12 @@ body{
 }
 
 .Podcast-title h3 {
-    color: #ffffff;
-    font-size: 3rem;
+    color: #FFFFFF;
+    font-style: Bold;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 58px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 .Podcast-title p {
     color: #ffffff;
@@ -308,10 +307,178 @@ body{
     padding: 40px;
 }
 
-.Episodes-section{
+/* episodes-section */
+.episodes-section{
     margin:0 auto;
     max-width: 1600px;
     box-sizing: border-box;
+    background: rgba(26, 11, 46, 1);
     padding: 50px 200px 120px 200px;
-    
+}
+.episodes-title h3 {
+    color: #FFFFFF;
+    font-style: Bold;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+}
+.episode-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30;
+    align-items: center;
+    color:#FFFFFF;
+    background: rgba(35, 14, 61, 1);
+}
+.episode-card h4 {
+    color: #FFFFFF;
+    font-style: Bold;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+}
+
+.episode-card p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.card-box {
+    width: 380px;
+    height: 440px;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.card-box .time-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+.card-box .time-box p{
+    color: #00FF88;
+}
+
+/* host-section */
+.host-section{
+    margin:0 auto;
+    max-width: 1600px;
+    box-sizing: border-box;
+    background: rgba(26, 11, 46, 1);
+    padding: 50px 200px 120px 200px;
+}
+.host-containaer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40;
+}
+.host-containaer h3 {
+    color: #FFFFFF;
+    font-style: Bold;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+}
+.host-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: rgba(53, 17, 101, 0.4);
+}
+.host-banner h4 {
+    color: #FFFFFF;
+    font-style: Bold;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+}
+.host-banner p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.host-icon{
+    width: 184px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.host-icon .icon{
+    border: 2px solid #705099;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer-section{
+    margin:0 auto;
+    max-width: 1600px;
+    box-sizing: border-box;
+    background: rgba(26, 11, 46, 1);
+    padding: 50px 200px 120px 200px;
+    align-items: center;
+    justify-items: center;
+}
+.footer-bg{
+    position: relative;    
+    background-image: url("../Images/footer-bg.png");
+
+}
+.footer-container{
+    width: 1360px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+}
+.title-footer{
+
+    color: #ee8244;
+    font-style: Bold;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+}
+.footer-wave{
+    background: linear-gradient(to right, rgb(205, 7, 223), rgb(223, 121, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-icon{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.footer-icon p{
+    color: rgb(228, 111, 33);
+    font-style: Medium;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
 }
