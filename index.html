@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechWave |Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/style.css">
+
 </head>
 
 <body class="inter-font">
@@ -20,25 +25,32 @@
                 <a href="#">Host</a>
             </div>
 
-            <button class="btn-primary">Subscribe</button>
+            <button id="nav-btn" class="btn-primary ">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+
+            <img class="hamburgger-menu" src="Images/hamburger-menu.png" alt="">
 
         </nav>
 
     </header>
     <main>
         <section class="hero-section">
-            <div class="hero-img">
-                <img class="hero-bg" src="Images/hero-bg.png" alt="">
-                <img class="hero-img" src="Images/hero-circle.png" alt="">
-                <img class="microphone" src="Images/microphone.png" alt="">
-            </div>
-            <div class="hero-title">
-                <h1>TechWave</h1>
-                <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
-            </div>
-            <div class="btn">
-                <button class="btn-primary">Listen On Spotify</button>
-                <button class="btn-02">Subscribe</button>
+
+            <img class="hero-bg" src="Images/hero-bg.png" alt="">
+
+            <div class="hero-container">
+                <div class="mic-box">
+                    <div class="circle-bg"></div>
+                    <img src="Images/microphone.png" alt="Microphone" class="mic-img">
+                </div>
+
+                <div class="hero-title">
+                    <h1>TechWave</h1>
+                    <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                </div>
+                <div class="btn">
+                    <button class="btn-primary"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
+                    <button class="btn-02"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+                </div>
             </div>
 
         </section>
@@ -82,45 +94,52 @@
                 <h3>Why Choose TechWave</h3>
             </div>
             <div class="box-grid">
-                <div class="box-1">
-                    <img src="Images/headphone.png" alt="">
-                    <h4>Premium Audio Quality</h4>
-                    <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
-                        engineering. Every episode is mastered for optimal listening across all devices and platforms.
-                    </p>
-                </div>
+                    <div class="box-1">
+                        <img src="Images/headphone.png" alt="">
+                        <h4>Premium Audio Quality</h4>
+                        <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                            engineering. Every episode is mastered for optimal listening across all devices and
+                            platforms.
+                        </p>
+                    </div>
 
-                <div class="box-2">
-                    <img src="Images/device.png" alt="">
-                    <h4>Mobile Friendly</h4>
-                    <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
-                        engineering. Every episode is mastered for optimal listening across all devices and platforms.
-                    </p>
-                </div>
+                    <div class="box-2">
+                        <img src="Images/device.png" alt="">
+                        <h4>Mobile Friendly</h4>
+                        <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                            engineering. Every episode is mastered for optimal listening across all devices and
+                            platforms.
+                        </p>
+                    </div>
 
-                <div class="box-3">
-                    <img src="Images/location.png" alt="">
-                    <h4>Global Community</h4>
-                    <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
-                        engineering. Every episode is mastered for optimal listening across all devices and platforms.
-                    </p>
-                </div>
+                    <div class="box-3">
+                        <img src="Images/location.png" alt="">
+                        <h4>Global Community</h4>
+                        <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                            engineering. Every episode is mastered for optimal listening across all devices and
+                            platforms.
+                        </p>
+                    </div>
 
-                <div class="box-4">
-                    <img src="Images/resource.png" alt="">
-                    <h4>Exclusive Interviews</h4>
-                    <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
-                        engineering. Every episode is mastered for optimal listening across all devices and platforms.
-                    </p>
-                </div>
 
-                <div class="box-5">
-                    <img src="Images/resource.png" alt="">
-                    <h4>Rich Resources</h4>
-                    <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
-                        engineering. Every episode is mastered for optimal listening across all devices and platforms.
-                    </p>
-                </div>
+               
+                    <div class="box-4">
+                        <img src="Images/resource.png" alt="">
+                        <h4>Exclusive Interviews</h4>
+                        <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                            engineering. Every episode is mastered for optimal listening across all devices and
+                            platforms.
+                        </p>
+                    </div>
+
+                    <div class="box-5">
+                        <img src="Images/resource.png" alt="">
+                        <h4>Rich Resources</h4>
+                        <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                            engineering. Every episode is mastered for optimal listening across all devices and
+                            platforms.
+                        </p>
+                    </div>
             </div>
         </section>
 
@@ -176,14 +195,14 @@
 
         <section class="host-section">
             <div class="host-containaer">
-                <div>
+                <div class="host-title">
                     <h3>Meet the Host</h3>
                 </div>
                 <div class="host-banner">
                     <div>
                         <img src="Images/host.png" alt="">
                     </div>
-                    <div>
+                    <div class="host-text">
                         <h4>Alex Kumar</h4>
                         <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech
                             industry
@@ -205,25 +224,24 @@
     </main>
     <footer class="footer-section">
         <div class="footer-container">
+
+            <img class="footer-bg" src="Images/footer-bg.png" alt="">
+
             <div class="footer-box">
-                <img class="footer-bg" src="Images/footer-bg.png" alt="">
                 <div class="title-footer">
                     <h3>Tech<span class="footer-wave">Wave</span></h3>
                 </div>
                 <div class="footer-icon">
-                    <img src="Images/spotify.png " alt="spotify-icon">
-                    <p>Spotify</p>
-                    <img src="Images/apple-podcast.png" alt="apple-podcast-icon">
-                    <p>Apple-Podcast</p>
-                    <img src="Images/youtube-podcast.png" alt="youtube-icon">
-                    <p>Youtube</p>
-                    <img src="Images/twitter.png" alt="twitter-icon">
-                    <p>Twitter</p>
+                    <p><i class="fa-brands fa-spotify"></i> Spotify</p>
+                    <p><i class="fa-solid fa-podcast"></i> Apple-Podcast</p>
+                    <p><i class="fa-brands fa-youtube"></i> Youtube</p>
+                    <p><i class="fa-brands fa-twitter"></i> Twitter</p>
+                </div>
+                <div class="copyright">
+                    <p>© 2026 TechWave Podcast. All rights reserved.</p>
                 </div>
             </div>
-            <div>
-                <p>© 2026 TechWave Podcast. All rights reserved.</p>
-            </div>
+
         </div>
     </footer>
 
