@@ -10,7 +10,7 @@ body{
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 500;
   font-style: normal;
   font: size 16px;
 }
@@ -24,7 +24,7 @@ body{
 /* navbar-section */
 .navber{
     display: flex;
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 0.918);
     justify-content: space-between;
     align-items: center;
     gap: 24px;
@@ -193,5 +193,117 @@ body{
     justify-content: center;
     align-items: center;
     gap: 16;
+}
+
+/* Why choose techwave section  */
+
+.Choose-container{
+    max-width: 1600px;
+    box-sizing: border-box;
+    background-color: #1A0B2E;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding: 120px 200px 120px 200px;
+}
+.box-title{
+    color: #FFFFFF;   
+    font-style: Bold;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+}
+.box-grid h4 {
+    color: #FFFFFF;
+    font-style: Bold;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+}
+.box-grid p {
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.box-grid{
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    color:#FFFFFF;
+    background: rgba(35, 14, 61, 1);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,380px);
+}
+.box-1{
+    grid-column: span 1;
+    grid-row: span 2;
+    width: 380px;
+    height: 480px;
+    display: flex;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+.box-2{
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 790px;
+    height: 273px;
+    display: flex;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+.box-3{
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 790px;
+    height: 273px;
+    display: flex;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+.box-4{
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 790px;
+    height: 273px;
+    display: flex;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+.box-5{
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 380px;
+    height: 273px;
+    display: flex;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
 }
 
