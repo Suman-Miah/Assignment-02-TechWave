@@ -165,6 +165,34 @@ body{
   }
 }
 
+.image-container {
+  position: relative;
+  width: 350px;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  border-radius: 30%;
+}
+
+.badge {
+  position: absolute;
+  top: -310px;
+  right: 15px;
+
+  background: #00ff9c;
+  color: #000;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 156, 0.6);
+}
+
+.image-container:hover .badge  {
+  transform: translate(-5%, -5%) scale(1.2);
+}
 
 /* Title-section */
 .hero-title h1 {
