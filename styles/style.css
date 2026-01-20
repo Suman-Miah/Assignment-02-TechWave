@@ -49,14 +49,7 @@ body{
     margin-right: 34px;
     text-decoration: none;
 }
-.hamburgger-menu{
-    display: none;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
+
 #hamburgger-m{
     display: none;
 }
@@ -75,19 +68,22 @@ body{
     font-size: 1rem;
     font-weight: 600;
     line-height: 19px;
-
-    color: #ffffffe7;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 12px 16px 12px 16px;
     border-radius: 100px;
-    /* background-color: rgb(205, 7, 223); */
     background: var(--Linear, linear-gradient(45.64deg, rgb(243, 95, 36),rgb(205, 7, 223),rgb(223, 121, 4)));
 }
+.btn-primary:hover {
+  color: rgba(17, 6, 1, 0.945);
+  transition: 0.5s;
+}
 
-.btn-02{
+.btn-02 {
     color:#00FF88;
+    background-color: #1A0B2E;
     font-size: 1rem;
     font-weight: 600;
     line-height: 19px;
@@ -103,6 +99,10 @@ body{
     box-sizing: border-box;
     border: 1px solid #951ce6;
     
+}
+.btn-02:hover {
+  color: rgba(224, 88, 25, 0.966);
+  transition: 0.5s;
 }
 
 
@@ -146,9 +146,10 @@ body{
   transition: transform 0.3s ease;
   cursor: pointer;
 }
-.mic-box:hover .mic-img {
+.mic-box:hover .mic-img  {
   transform: translate(-50%, -50%) scale(1.1);
 }
+
 @keyframes Pulse {
   0% {
     transform: scale(1);
@@ -209,6 +210,8 @@ body{
     font-weight: 400;
     line-height: 20px;
     text-align: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .Podcast-features{
@@ -602,14 +605,14 @@ text-align: center;
     display: none;
 }
 
-.hamburgger-menu{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+#hamburgger-m{
+    display: flex;
+    flex-direction: column;
+    width: 4vw;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-
+    justify-content: flex-end;
+    padding: 40px;
 }
 
 .hero-section {
@@ -682,22 +685,32 @@ text-align: center;
     grid-template-columns: repeat(1, 1fr);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    text-align: center;
+    
 }
 
 .box-grid{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    max-width: 576px;
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 16px;
 }
 
 .box-grid p{
-    max-width: 500px;
+    width: 80%;
+}
+
+.box-all{ 
+    max-width: 380px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .episodes-section{
